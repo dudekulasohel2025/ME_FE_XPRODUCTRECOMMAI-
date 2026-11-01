@@ -1,0 +1,286 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "projectRoot": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment",
+    "projectName": "assessment",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "baseUrl": null,
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalJustInTimeCompile": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment",
+    "fixturesFolder": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "linux",
+    "pageLoadTimeout": 60000,
+    "port": 45617,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "/usr/bin/node",
+    "resolvedNodeVersion": "16.20.2",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/support/e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "132",
+        "name": "chrome",
+        "path": "google-chrome",
+        "version": "132.0.6834.159"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Chromium",
+        "family": "chromium",
+        "majorVersion": "112",
+        "name": "chromium",
+        "path": "chromium-browser",
+        "version": "112.0.5615.49"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "/home/crio-user/.cache/Cypress/13.17.0/Cypress/resources/app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.17.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.17.0",
+  "endedTestsAt": "2026-11-01T19:35:03.028Z",
+  "osName": "linux",
+  "osVersion": "Ubuntu - ",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 9,
+        "passes": 9,
+        "pending": 0,
+        "failures": 0,
+        "start": "2026-11-01T19:34:54.258Z",
+        "end": "2026-11-01T19:35:03.034Z",
+        "duration": 8776
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "/home/crio-user/workspace/dudekulasohel2025-ME_FE_XPRODUCTRECOMMAI/assessment/cypress/e2e/spec.cy.js",
+        "fileExtension": ".js",
+        "fileName": "spec",
+        "name": "spec.cy.js",
+        "relative": "cypress/e2e/spec.cy.js"
+      },
+      "stats": {
+        "duration": 8780,
+        "endedAt": "2026-11-01T19:35:03.028Z",
+        "failures": 0,
+        "passes": 9,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2026-11-01T19:34:54.248Z",
+        "suites": 1,
+        "tests": 9
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1206,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "should navigate to the Past Conversations page on button click"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 299,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "should display the Product Recommendation AI header with correct title"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 605,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "should allow user to type a message in the input field"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 477,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Should have an input field to ask queries and return a response"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 756,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Should show a default message if the question is not present in the static JSON data"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 477,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Should show valid message if the question is present in the static JSON data"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 254,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Should have a Past Conversations page which lists all the previous messages"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 817,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Past Conversations should be persistent across page refreshes using localStorage"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 263,
+          "state": "passed",
+          "title": [
+            "Product Recommendation AI Application",
+            "Should have a New suggestion button to start a new conversation"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2026-11-01T19:34:54.248Z",
+  "totalDuration": 8780,
+  "totalFailed": 0,
+  "totalPassed": 9,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 9
+}

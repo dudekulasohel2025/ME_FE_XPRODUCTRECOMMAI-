@@ -1,0 +1,11 @@
+{
+    "Test Case 1: Product Recommendation AI Application - should navigate to the Past Conversations page on button click": "TEST_STATUS_SUCCESS",
+    "Test Case 2: Product Recommendation AI Application - should display the Product Recommendation AI header with correct title": "TEST_STATUS_SUCCESS",
+    "Test Case 3: Product Recommendation AI Application - should allow user to type a message in the input field": "TEST_STATUS_SUCCESS",
+    "Test Case 4: Product Recommendation AI Application - Should have an input field to ask queries and return a response": "TEST_STATUS_SUCCESS",
+    "Test Case 5: Product Recommendation AI Application - Should show a default message if the question is not present in the static JSON data": "TEST_STATUS_SUCCESS",
+    "Test Case 6: Product Recommendation AI Application - Should show valid message if the question is present in the static JSON data": "TEST_STATUS_SUCCESS",
+    "Test Case 7: Product Recommendation AI Application - Should have a Past Conversations page which lists all the previous messages": "TEST_STATUS_SUCCESS",
+    "Test Case 8: Product Recommendation AI Application - Past Conversations should be persistent across page refreshes using localStorage": "TEST_STATUS_SUCCESS",
+    "Test Case 9: Product Recommendation AI Application - Should have a New suggestion button to start a new conversation": "TEST_STATUS_SUCCESS"
+}

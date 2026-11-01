@@ -1,7 +1,7 @@
 describe("Product Recommendation AI Application", () => {
   beforeEach(() => {
     // Navigate to the app before each test
-    cy.visit("http://localhost:3000");
+    cy.visit("https://me-fe-xproductrecommai-ashy.vercel.app");
   });
 
   it("should navigate to the Past Conversations page on button click", () => {
